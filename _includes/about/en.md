@@ -33,4 +33,5 @@ Later, some people joined Fantasy Star Studio voluntarily and offered help, whic
 
 - Milestones
 During the summer vacation of 2024, I planned to participate in an indie game development competition and ultimately decided on the **TIG** indie game development competition. I embarked on a **50-day** journey of indie game development (for "Pirate Spire"), and after encountering a series of issues, I submitted my application on **August 27th**. I'm currently waiting for the results... Regardless of the outcome, the moment I completed and uploaded the game was the most exciting and proud moment of my game development career so far. It will be a **milestone**.
+
 When I finished writing this brief introduction to the Magic Star Studio, its history was still advancing over time...
