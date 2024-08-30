@@ -85,8 +85,7 @@ service-worker: true
 page-mathjax: false
 
 # Friends
-news:
+friends:
   [
-    { title: "幻星工作室 B站首页", href: "https://space.bilibili.com/526035328?spm_id_from=333.1007.0.0" },
-    { title: "《海盗尖塔》第一部分 最新演示视频", href: "https://www.bilibili.com/video/BV1scsxevEzG/?spm_id_from=333.999.0.0" },
+    { title: "Include源来是小白的个人博客", href: "https://include-xb.github.io" }
   ]
