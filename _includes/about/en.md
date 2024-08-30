@@ -1,38 +1,36 @@
-Hey, I am Huang, Xuan (a.k.a. _@huxpro_). I worked on the [React Team](https://beta.reactjs.org/community/meet-the-team#react-core) at <del>Facebook</del>Meta.
+## Fantasy Star Studio
 
-I considered myself as a hybrid between a software engineer specifically into the programming languages theories and implementations domain (i.e. compiler, type system, type-based formal verification, virtual machine, runtime systems, garbage collection), and a creative technologiest deeply caring about many humanistic aspects (e.g. visual, sound, interaction) in UI and HCI in general.
+### Beginning
+When I was in elementary school, the information technology class was my favorite. Every time we had class, the teacher would teach us to use a software called **Scratch** with a **yellow cat icon**. I could always complete all the puzzle tasks with ease. Since I was always the first to finish and submit, the teacher noticed my talent, which filled me with pride and planted the seed of game development in my heart.
 
-I also worked on the [Hermes JavaScript Engine](https://hermesengine.dev/), some other projects under the [Reality Labs (Research)](https://tech.fb.com/ar-vr/), and [ReasonML](https://reasonml.github.io/) (now [ReScript](https://rescript-lang.org/)) efforts at Meta (Facebook).
+- Origin of the Studio
+In my first year of high school, I first encountered Unity. After self-studying for some time, I was able to create some **pretty decent** 😰 games. That's when **Fantasy Star Studio** was born on **April 19, 2024**. The origin of the studio's name is quite strange: a sudden thought popped into my mind, and a great name appeared before me—two bold characters, **"Magic Star"** 🤩. Well, okay... It was just those two words that came to mind out of the blue. Who knows what innocent thoughts I had at that time. But if I had to give a reason, it's because I hoped the games produced by our studio could shine like stars in the sky, loved and admired by people; as for the word **"Magic"**, it's simply because it's really **Cool** 🤓👍.
 
-In the past, I worked on [Alitrip (Fliggy)](https://www.alitrip.com/) mobile and web apps under the [Alibaba Group](https://en.wikipedia.org/wiki/Alibaba_Group), found and lead front-end infrastructure team at an unicorn startup company [Beijing Weiying (a.k.a. WePiao, now acquired by Maoyan)](https://www.crunchbase.com/organization/beijing-weiying-technology), and helped [Ele.me (now acquired by Alibaba)](https://en.wikipedia.org/wiki/Ele.me) to upgrade their mobile web site into [the first influential PWA (progressive web app) in China](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509).
+- Initial Members of the Studio
+Magic Star Studio didn't have many members at first, and they were all my junior high school classmates. I vaguely remember there were only a few of us, and most of them were involved in **"game testing"** and **"game promotion"**, which meant no one in the studio could participate in game programming. I took on everything by myself—it seems like I still do, haha. Their encouragement and support were one of the fundamental driving forces behind my game development back then. It was a joyful and fulfilling time that I still cherish to this day.
 
-I studied BA, Digital Media Art at [Communication University of China](https://en.wikipedia.org/wiki/Communication_University_of_China) and MS, Computer Science (with a focus on programming languages, mainly supervised by [Prof. Matthew Fluet](https://www.cs.rit.edu/~mtf/)) at [Rochester Institute of Technology](https://en.wikipedia.org/wiki/Rochester_Institute_of_Technology).
+***
 
-##### Appearence
+### Development
+The broadening of my horizons during junior high school made me not content with the immediate present.
 
-- [React Labs: What We've Been Working On – June 2022][12] · React Blog · 2022
-- [React Without Memo][11] · [React Conf 2021](https://conf.reactjs.org/)
-- [Toward Hermes being the Default][11] · React Native Blog · 2021
-- React Native 0.64 with Hermes for iOS · [The RN Show Podcast Ep #5](https://www.callstack.com/podcast-react-native-show) · 2021
-- [Upgrading to Progressive Web Apps][9] · [JSConf China Shanghai 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI Guangzhou 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux Beijing 2017
-- PWA Rehashing · Baidu HQ Beijing 2017
-- [Service Worker 101][5] · GDG DevFest Beijing 2016
-- [Progressive Web Apps][4] · QCon Shanghai 2016
-- Progressive Web App in my POV · GDG IO Redux Beijing 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript Modularization Journey][1] · 2015
+- Developing My Skills
+Why weren't the games fun? Because I lacked skills in game development. How could "half-assed skills" kick open the door to **indie games**? When the game testers repeatedly reported many **"bugs"**, I made up my mind to delve into game engines—specifically, Unity. Back then, as soon as I finished my homework, I would start watching videos to learn. This process helped me accumulate a lot of experience in game development and also produced many **"embarrassing"** works.
 
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/
-[10]: https://reactnative.dev/blog/2021/10/26/toward-hermes-being-the-default
-[11]: https://youtu.be/lGEMwh32soc
-[12]: https://reactjs.org/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022.html
+> [My First Unity Tutorial Video - From bilibili](https://www.bilibili.com/video/BV12s411g7gU/?spm_id_from=333.337.search-card.all.click&vd_source=aaae2859daad2f1fcd06dde5abb72fb6)
+
+- Expanding My Skills
+Apart from Unity, during junior high school, I also extensively learned many other things, such as **Unreal** (Unreal Engine), **WebStorm** (front-end web development), **Blender** (modeling), **Bandlab** (music production), **Flash** (animation), and **PS** (Photoshop for graphics). In high school, inspired by watching "Boogiepop Phantom," I impulsively learned to play the **electric guitar**. Although I learned a lot of things but didn't delve deeply into any one of them, they all converged to lay a solid foundation for my later indie game development.
+
+- Changes in Studio Members
+As I met many new friends in high school, the number of studio members increased slightly (to 22). My former junior high school classmates seemed to rarely speak in the studio group anymore. But that's understandable, as we all went our separate ways...
+
+Later, some people joined Fantasy Star Studio voluntarily and offered help, which truly touched me. Here, I express my gratitude to them! 😄❤️
+
+***
+
+### <del>Climax</del> Current Status
+
+- Milestones
+During the summer vacation of 2024, I planned to participate in an indie game development competition and ultimately decided on the **TIG** indie game development competition. I embarked on a **50-day** journey of indie game development (for "Pirate Spire"), and after encountering a series of issues, I submitted my application on **August 27th**. I'm currently waiting for the results... Regardless of the outcome, the moment I completed and uploaded the game was the most exciting and proud moment of my game development career so far. It will be a **milestone**.
+When I finished writing this brief introduction to the Magic Star Studio, its history was still advancing over time...

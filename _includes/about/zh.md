@@ -1,57 +1,37 @@
-Hey，我是黄玄（a.k.a. Hux, _@huxpro_），一个略懂计算机科学与艺术的斜杆不动青年，自诩是一个[广院](https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E4%BC%A0%E5%AA%92%E5%A4%A7%E5%AD%A6)数字媒体艺术系与 RIT 计算机科学系（师从 [Prof. Matthew Fluet](https://www.cs.rit.edu/~mtf/) 专攻编程语言）杂交出来的[黑客与画家](https://book.douban.com/subject/6021440/)。
+## 幻星工作室
 
-现为 <del>Facebook</del> Meta 签约软件工程师，就职于开源技术<del>网红</del>团队 [React](https://beta.reactjs.org/community/meet-the-team#react-core)，曾参与 [Hermes JavaScript 引擎](https://hermesengine.dev/)，[ReasonML](https://reasonml.github.io/) (现 [ReScript](https://rescript-lang.org/))，以及 [Reality Labs](https://tech.fb.com/ar-vr/) 某保密项目等。在国内期间，曾被招募为阿里巴巴 · [阿里旅行（飞猪）](http://alitrip.com)· 前端工程师、微影时代 · 微票儿 · 前端基础设施工程团队负责人、[饿了么](https://ele.me/) · 大前端团队 · [PWA 顾问](https://medium.com/elemefe/upgrading-ele-me-to-progressive-web-app-2a446832e509) 等。
+### 开端
 
+那时我正上小学，小学的信息课算是我最喜欢的了。每次上课老师就会教我们用一个 **黄色小猫图标** 的软件``Scratch``，我每次都能游刃有余地完成所有的<del>编程</del>拼图任务。因为每次我都能第一个完成并提交，老师看到了我的天赋，也让我产生很多自豪感，就此给我心里中下了游戏开发的种子。
+- 工作室的由来
+高一，我刚刚接触了Unity。自学了一段时间后可以做出一些<del>非常烂</del>**非常不错**😰的游戏。于是乎，**幻星工作室** 于 **2024年4月19号** 诞生了。工作室名字的由来也很奇怪：一个突如其来的思绪钻入了我的脑海，一个伟大的名字显现在我的眼前——上面赫然是两个大字 **"幻星"** 🤩。咳咳，好吧……其实就是突然想到了这两个字，谁知道那时天真的我在想什么。但是，如果让我硬是说出个原因来，就是我希望我们工作室做出来的游戏可以像天上的星星般闪耀、受人们喜爱和追捧；至于 **"幻"** 这个字呢，单纯是因为 **Cool** 🤓👍。
 
-目前的物理活动范围主要在美帝纽约与硅谷，也想当个数字游<del>民</del>侠。虚拟分身日常出没于[微博](https://weibo.com/huxpro)、[知乎](https://www.zhihu.com/people/huxpro/pins/posts)、[B站](https://space.bilibili.com/43271611)、[Instagram](https://www.instagram.com/huxpro/)、[推特](https://twitter.com/Huxpro/)、[Github](https://github.com/huxpro) 等。
+- 工作室的初始成员
+幻星工作室一开始成员并不多而且都是我的初中同学，依稀记得只有几个人，而且大多都是 **"游戏测试"** 和 **"游戏宣传"** ，这就导致工作室里的成员没人能够参与游戏的程序开发，我一个人抗下所有``貌似现在也是，哈哈``。他们的鼓励和支持是我当时开发游戏的根本动力之一，那是一段很快乐、很充实的时光，我至今回味。
 
+***
 
-##### 技术演讲
+### 发展
 
-- [React 国情咨文 2022][13] · 第七届中国开源年会 · 2023
-- [React Labs: What We've Been Working On – June 2022][12] · React Blog
-- [React Without Memo][11] · [React Conf 2021](https://conf.reactjs.org/)
-- [Toward Hermes being the Default][11] · React Native Blog · 2021
-- React Native 0.64 with Hermes for iOS · [The RN Show Podcast Ep #5](https://www.callstack.com/podcast-react-native-show) · 2021
-- [Upgrading to Progressive Web Apps][9] · [Youtube](https://www.youtube.com/watch?v=RWzMF-1fjJ8&t=1s) · [JSConf CN 上海 2017](http://2017.jsconf.cn/)
-- Building Progressive Web Apps · [CSDI 广州 2017](http://www.csdisummit.com/)
-- The State of Progressive Web App · GDG IO Redux 北京 2017
-- 炒冷饭 · PWA 到底是个什么玩意？· Baidu HQ 北京 2017
-- [Service Worker 101][5] · GDG DevFest 北京 2016
-- [Progressive Web App，复兴序章][4] · [QCon 上海 2016](http://2016.qconshanghai.com/presentation/3111)
-- Progressive Web App 之我见 · GDG IO Redux 北京 2016
-- [CSS Still Sucks 2015][2] · 2015
-- [JavaScript 模块化七日谈][1] · 2015
+初中时视野的提升让我不拘泥于眼前的 **苟且** 。
 
+- 开发自身能力
+游戏为何不好玩？开发游戏的技能太少了呗。“三脚猫功夫”怎么能踢开 **独立游戏** 的大门呢？在游戏测试员们的反复反应游戏 **"Bug"** 多时，我就下定决心要好好钻研一下游戏引擎了``也就是Unity``，当时是只要一写完回家作业就开始看视频学习。这一过程也让我积累了很多游戏开发的经验，同时也产生了很多 **"黑历史"** 作品。
 
-##### 媒体关注
+>[我的第一个Unity入门视频 -来自bilibili](https://www.bilibili.com/video/BV12s411g7gU/?spm_id_from=333.337.search-card.all.click&vd_source=aaae2859daad2f1fcd06dde5abb72fb6)
+>
+- 更多技能的涉猎
+除了Unity，初中时的我还广泛去学习了很多其他内容，比如：**Unreal**``虚幻引擎``、**WebStorm**``前端网页开发``、**Blender**``建模``、**Bandlab**``音乐制作``、**还有Flash**``动画制作``和**PS**``绘图``。高中时因为看了 **"孤独摇滚"** ，一时兴起去学了**电吉他**。虽然学得很杂，也没有一门学得很深，但是殊途同归地为我后来的独立游戏开发打下了坚实的基础。
 
-- [Hux 黄玄：从全局视角看 React 生态][14] · 直播 · 图灵 8 点半 · 2023
-- [2022 中国开源先锋 33 人][18] · SegmentFault · 2023
-- [React 黄玄：不懂艺术的 B-Boy 不是 Swag 的程序员][16] · Gitee 封面人物 · 2022
-- [在硅谷当程序员是怎样的体验？][17] · 知乎[《我所向往的职业啊》](https://movie.douban.com/subject/36015036/) · 2022
+- 工作室成员的变化
+因为上高中认识了很多新朋友，工作室的人数也得到了少量补充``22人``。从前的初中同学貌似很少在工作室群里发言了。不过也是，我们都 **分道扬镳** 了……
+后来，有一些人 **无偿** 加入幻星工作室并提供帮助，真的让我很感动。这里向他们表达谢意！😄❤️
 
-<!--
-- [掘金 AMA：我是前端娱乐圈的老人 & Facebook 实习生 -- 黄玄][19] · 2018
--->
+***
 
+### <del>高潮</del>目前
 
-[1]: //huangxuan.me/2015/07/09/js-module-7day/
-[2]: //huangxuan.me/2015/12/28/css-sucks-2015/
-[3]: //huangxuan.me/2016/06/05/pwa-in-my-pov/
-[4]: //huangxuan.me/2016/10/20/pwa-qcon2016/
-[5]: //huangxuan.me/2016/11/20/sw-101-gdgdf/
-[6]: https://yanshuo.io/assets/player/?deck=58ac8598b123db0067292f92 "PWA Rehashing"
-[7]: https://yanshuo.io/assets/player/?deck=593ad6fbfe88c2006a0a0d6d "The State of PWA"
-[8]: https://yanshuo.io/assets/player/?deck=594d673d570c357d0698a950 "Building PWA"
-[9]: //huangxuan.me/jsconfcn2017/
-[10]: https://reactnative.dev/blog/2021/10/26/toward-hermes-being-the-default
-[11]: https://youtu.be/lGEMwh32soc
-[12]: https://reactjs.org/blog/2022/06/15/react-labs-what-we-have-been-working-on-june-2022.html
-[13]: https://www.bilibili.com/video/BV1LY411Q7hC/?spm_id_from=333.999.0.0
-[14]: https://appycyfaqcq1951.pc.xiaoe-tech.com/p/t_pc/course_pc_detail/video/v_64477dbfe4b0cf39e6c11d2a
-[15]: https://segmentfault.com/a/1190000043208486
-[16]: https://gitee.com/gitee-stars/30
-[17]: https://www.zhihu.com/zvideo/1542577108190068737?page=ogv
-[18]: https://segmentfault.com/a/1190000043208486
-[19]: https://juejin.cn/post/6844903750155419655
+- 里程碑
+2024年暑假，我计划参加独立游戏开发竞赛，最终决定参加 **TIG** 独立游戏开发竞赛。开始了长达 **50天** 的独立游戏开发之旅``也就是《海盗尖塔》``，在经历一系列问题后，于 **8月27号** 提交申请，目前正在等待结果中……不论结果如何，当我完成游戏并上传的那一刻，是我游戏开发生涯以来最激动和自豪的时候，这将是一座 **里程碑**  。
+
+自我写完这份幻星工作室的简介时，它的历史仍随着时间在推进着……
