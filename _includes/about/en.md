@@ -1,4 +1,4 @@
-## Fantasy Star Studio
+## Magic Star Studio
 
 ### Beginning
 When I was in elementary school, the information technology class was my favorite. Every time we had class, the teacher would teach us to use a software called **Scratch** with a **yellow cat icon**. I could always complete all the puzzle tasks with ease. Since I was always the first to finish and submit, the teacher noticed my talent, which filled me with pride and planted the seed of game development in my heart.
