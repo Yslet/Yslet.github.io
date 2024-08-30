@@ -87,12 +87,6 @@ page-mathjax: false
 # Friends
 friends:
   [
-    { title: "乱序（Midare）", href: "http://mida.re/" },
-    { title: "Ebn Zhang", href: "https://ebnbin.dev/" },
-    { title: "Kun Qian", href: "http://kunq.me" },
-    { title: "Sherry Woo", href: "https://sherrywoo.me/" },
-    { title: "SmdCn", href: "http://blog.smdcn.net" },
-    { title: "JiyinYiyong", href: "http://tiye.me/" },
-    { title: "DHong Say", href: "http://dhong.co" },
-    { title: "尹峰以为", href: "http://ingf.github.io/" },
+    { title: "幻星工作室 B站首页", href: "https://space.bilibili.com/526035328?spm_id_from=333.1007.0.0" },
+    { title: "《海盗尖塔》第一部分 最新演示视频", href: "https://www.bilibili.com/video/BV1scsxevEzG/?spm_id_from=333.999.0.0" },
   ]
