@@ -3,7 +3,7 @@ layout: post
 title: "第一次尝试github博客托管"
 author: "yushi"
 header-img: "img/StudioLogo.png"
-header-mask: 0.3
+header-mask: 0.1
 header-style: text
 catalog: true
 tags:
