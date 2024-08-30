@@ -2,8 +2,7 @@
 layout: post
 title: "第一次尝试github博客托管"
 author: "yushi"
-header-img: "img/StudioLogo"
-header-mask: 0.4
+header-style: text
 catalog: true
 tags:
   - blog
