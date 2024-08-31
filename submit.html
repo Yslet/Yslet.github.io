@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>《海盗尖塔》卡牌设计提交</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .container {
+            background-color: #fff;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            width: px;
+            text-align: left;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #666;
+        }
+
+        input[type="text"],
+        input[type="submit"],
+        button {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 2px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="text"]:focus,
+        input[type="submit"]:hover,
+        button:hover {
+            border-color: #007bff;
+        }
+
+        input[type="submit"],
+        button {
+            background-color: #007bff;
+            color: white;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:disabled,
+        button:disabled {
+            background-color: #ccc;
+            cursor: not-allowed;
+        }
+
+         #cardDescribe {
+            /* 允许用户调整文本框的大小 */
+            resize: both;
+            min-height: 150px;
+            max-height: 400px; 
+            min-width: 400px; 
+            max-width: 400px; 
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <form id="myForm" action="#" method="post">
+            <h2>《海盗尖塔》卡牌设计提交（限时开启）</h2>
+            <p>
+                <label for="user">提交人姓名</label>
+                <input type="text" name="user" id="user" required placeholder="请输入您的姓名">
+            </p>
+            <p>
+                <label for="cardName">卡牌名称</label>
+                <input type="text" name="cardName" id="cardName" required placeholder="请输入卡牌名称">
+            </p>
+            <p>
+                <label for="cardType">卡牌类型</label>
+                <input type="text" name="cardType" id="cardType" required placeholder="请输入卡牌类型">
+            </p>
+            <p>
+                <label for="cardDescribe">卡牌描述</label>
+                <textarea name="cardDescribe" id="cardDescribe" required placeholder="请输入卡牌描述"></textarea>
+            </p>
+            <p>
+                <input type="submit" value="提交">
+            </p>
+        </form>
+        <button id="exportData">导出数据</button>
+
+        <script>
+            document.getElementById('myForm').addEventListener('submit', function(event) {             
+                event.preventDefault();             
+                    const userData = {                 
+                        user: document.getElementById('user').value,                 
+                        cardName: document.getElementById('cardName').value,                 
+                        cardType: document.getElementById('cardType').value,                 
+                        cardDescribe: document.getElementById('cardDescribe').value             
+                    };             
+                    saveDataToJSON(userData);         
+            });         
+            function saveDataToJSON(data) {             
+                let formData = JSON.parse(localStorage.getItem('formData') || '[]');             
+                formData.push(data);             
+                localStorage.setItem('formData', JSON.stringify(formData));         
+            }         
+            document.getElementById('exportData').addEventListener('click', function() {             
+                const data = localStorage.getItem('formData');             
+                if (!data) {                 
+                    alert('没有数据可导出！');                 
+                    return;             
+                }             
+                const blob = new Blob([data], { type: 'application/json' });             
+                const url = URL.createObjectURL(blob);             
+                const a = document.createElement('a');             
+                a.href = url;             
+                a.download = 'formData.json';             
+                document.body.appendChild(a);             
+                a.click();             
+                document.body.removeChild(a);             
+                URL.revokeObjectURL(url);
+         
+                clearFormDataCache();
+            });
+            function clearFormDataCache() {
+                localStorage.removeItem('formData');
+            }
+        </script>
+    </div>
+</body>
+</html>
