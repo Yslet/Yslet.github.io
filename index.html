@@ -65,6 +65,19 @@ description: "「这里是 @幻星工作室 的更新博客，与你一起进步
             overflow: hidden;
         }
 
+        .-button {
+            display: inline-block;
+            padding: 16px 16px;
+            font-size: 0; /* 移除文字 */
+            color: transparent; /* 移除文字颜色 */
+            background-color: #23303B; /* Bilibili的蓝色主题色 */
+            border: none;
+            border-radius: 3px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
         .bilibili-button::before {
             content: '';
             position: absolute;
@@ -80,76 +93,26 @@ description: "「这里是 @幻星工作室 的更新博客，与你一起进步
         .bilibili-button:hover {
             background-color: #00A1D6; /* Bilibili的蓝色高亮色 */
         }
-    </style>
-</head>
 
-<head>
-     <style>
-    
-
-        form {
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-            width: 300px;
-        }
-
-        label {
-            display: block;
-            margin-bottom: 5px;
-            font-weight: bold;
-        }
-
-        input[type="text"],
-        input[type="submit"] {
-            width: 100%;
-            padding: 10px;
-            margin-bottom: 15px;
-            border: 1px solid #ccc;
-            border-radius: 4px;
-        }
-
-        input[type="submit"] {
-            background-color: #007bff;
-            color: white;
+        .submit-button {
+            display: inline-block;
+            padding: 16px 16px;
+            color: #FFFFFF;
+            text-decoration: none;
+            background-color: #23303B; /* Bilibili的蓝色主题色 */
             border: none;
+            border-radius: 3px;
             cursor: pointer;
-        }
-
-        input[type="submit"]:hover {
-            background-color: #0056b3;
+            position: relative;
+            overflow: hidden;
         }
     </style>
 </head>
-
 <body>
+    <a href="https://space.bilibili.com/526035328" class="bilibili-button" target="_blank"> bilibili </a>
+    <b> bilibili </b>
 
-<a href="https://space.bilibili.com/526035328" class="bilibili-button" target="_blank"> bilibili </a>
-<b> bilibili </b>
-
-  <h2 style="margin-bottom: 20px;">《海盗尖塔》卡牌设计提交（限时开启）</h2>
-    <form action="https://yslet.github.io/" method="post" style="width: 350px;">
-        <p>
-            <label for="user">提交人姓名</label>
-            <input type="text" name="user" id="user" required placeholder="请输入您的姓名">
-        </p>
-        <p>
-            <label for="cardName">卡牌名称</label>
-            <input type="text" name="cardName" id="cardName" required placeholder="请输入卡牌名称">
-        </p>
-        <p>
-            <label for="cardType">卡牌类型</label>
-            <input type="text" name="cardType" id="cardType" required placeholder="请输入卡牌类型">
-        </p>
-        <p>
-            <label for="cardDescribe">卡牌表述</label>
-            <input type="text" name="cardDescribe" id="cardDescribe" required placeholder="请输入卡牌表述">
-        </p>
-        <p>
-            <input type="submit" value="提交">
-        </p>
-    </form>
-
+    <h2 style="margin-bottom: 20px;">《海盗尖塔》卡牌设计提交（限时开启）</h2>
+    <a href="submit.html" class="submit-button" target="_blank">前往提交</a>
 </body>
 </html>
