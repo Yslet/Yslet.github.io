@@ -71,7 +71,7 @@ ga_domain: huangxuan.me
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
 sidebar-about-description: "幻星工作室-游戏-《海盗尖塔》开放测试中…… <br> @幻星工作室 出品"
-sidebar-avatar: img/StudioLogo.png # use absolute URL, seeing it's used in both `/` and `/about/`
+sidebar-avatar: https://github.com/Yslet/Yslet.github.io/blob/master/img/StudioLogo.png?raw=true # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
 featured-tags: true # whether or not using Feature-Tags
