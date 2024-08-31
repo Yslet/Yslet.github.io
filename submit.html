@@ -98,7 +98,6 @@
             </p>
         </form>
         <button id="exportData">导出数据</button>
-        <button id="CleanData">清除缓存</button>
 
         <script>
             document.getElementById('myForm').addEventListener('submit', function(event) {             
@@ -134,14 +133,6 @@
          
                 clearFormDataCache();
             });
-            document.getElementById('CleanData').addEventListener('click', function() {  
-                const data = localStorage.getItem('formData');             
-                if (!data) {                 
-                    alert('没有缓存可以清理！');                 
-                    return;             
-                }   
-                clearFormDataCache();
-            }
             function clearFormDataCache() {
                 localStorage.removeItem('formData');
             }
