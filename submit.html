@@ -135,6 +135,11 @@
                 clearFormDataCache();
             });
             document.getElementById('CleanData').addEventListener('click', function() {  
+                const data = localStorage.getItem('formData');             
+                if (!data) {                 
+                    alert('没有缓存可以清理！');                 
+                    return;             
+                }   
                 clearFormDataCache();
             }
             function clearFormDataCache() {
