@@ -44,3 +44,51 @@ description: "「这里是 @幻星工作室 的更新博客，与你一起进步
     {% endif %}
 </ul>
 {% endif %}
+
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>访问我的Bilibili主页</title>
+    <style>
+        .bilibili-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 0; /* 移除文字 */
+            color: transparent; /* 移除文字颜色 */
+            background-color: #23303B; /* Bilibili的蓝色主题色 */
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .bilibili-button::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            /* 这里应该是图标的实际尺寸和路径，但这里我们使用一个占位符 */
+            width: 30px; /* 图标宽度 */
+            height: 30px; /* 图标高度 */
+            background-image: url('https://i0.hdslb.com/bfs/face/e93c24dc4a4cfdd228524ce87ab8117406fe0c97.jpg'); /* 替换为你的图标文件路径 */
+            background-size: cover;
+        }
+
+        .bilibili-button:hover {
+            background-color: #00A1D6; /* Bilibili的蓝色高亮色 */
+        }
+    </style>
+</head>
+<body>
+
+<a href="https://space.bilibili.com/526035328" class="bilibili-button"></a>
+
+<!-- 请将 "https://space.bilibili.com/你的UID" 中的 "你的UID" 替换成你自己的Bilibili UID -->
+<!-- 同时，将 'path/to/your/bilibili-icon.png' 替换为你的Bilibili图标文件的实际路径 -->
+
+</body>
+</html>
