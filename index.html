@@ -81,11 +81,80 @@ description: "「这里是 @幻星工作室 的更新博客，与你一起进步
             background-color: #00A1D6; /* Bilibili的蓝色高亮色 */
         }
     </style>
+
+    <style>
+     body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        form {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            width: 300px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="submit"] {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        input[type="submit"] {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
 
 <a href="https://space.bilibili.com/526035328" class="bilibili-button" target="_blank"> bilibili </a>
 <b> bilibili </b>
+
+  <h1 style="text-align: center; margin-bottom: 20px;">《海盗尖塔》卡牌设计提交</h1>
+    <form action="https://yslet.github.io/" method="post" style="width: 320px;">
+        <p>
+            <label for="user">提交人姓名</label>
+            <input type="text" name="user" id="user" required placeholder="请输入您的姓名">
+        </p>
+        <p>
+            <label for="cardName">卡牌名称</label>
+            <input type="text" name="cardName" id="cardName" required placeholder="请输入卡牌名称">
+        </p>
+        <p>
+            <label for="cardType">卡牌类型</label>
+            <input type="text" name="cardType" id="cardType" required placeholder="请输入卡牌类型">
+        </p>
+        <p>
+            <label for="cardDescribe">卡牌表述</label>
+            <input type="text" name="cardDescribe" id="cardDescribe" required placeholder="请输入卡牌表述">
+        </p>
+        <p>
+            <input type="submit" value="提交">
+        </p>
+    </form>
 
 </body>
 </html>
